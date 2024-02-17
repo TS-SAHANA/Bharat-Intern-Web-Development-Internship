@@ -4,10 +4,10 @@ Welcome to the Bharat Intern Web Development Internship! Below, you'll find a sh
 
 ---
 
-## Netflix India Homepage Recreation
+## Netflix Homepage Recreation
 
 **Description:**
-The Netflix India Homepage Recreation project aims to replicate the homepage of Netflix India. It utilizes HTML, CSS, and JavaScript to create a visually appealing and interactive user interface similar to the original Netflix homepage. The project includes sections such as header navigation, featured content, frequently asked questions (FAQs), and a footer with various links and contact information.
+The Netflix Homepage Recreation project aims to replicate the homepage of Netflix. It utilizes HTML, CSS, and JavaScript to create a visually appealing and interactive user interface similar to the original Netflix homepage. The project includes sections such as header navigation, featured content, frequently asked questions (FAQs), and a footer with various links and contact information.
 
 **Technologies Used:**
 - HTML5
