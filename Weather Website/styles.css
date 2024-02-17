@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200vh;
+    height: 100vh;
+    background: linear-gradient(180deg, #36D1DC 0%, #5B86E5 100%);
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 43%;
+    margin: auto;
+}
+
+svg {
+    font-family: "Lobster", sans-serif;
+    width: 180%;
+    height: 30%;
+}
+
+svg text {
+    animation: stroke 5s infinite alternate;
+    stroke-width: 2;
+    stroke: #17ded7;
+    font-size: 100px;
+}
+
+@keyframes stroke {
+    0% {
+        fill: #0af5dd;
+        stroke: #5a69f5;
+        stroke-dashoffset: 25%;
+        stroke-dasharray: 0 50%;
+        stroke-width: 2;
+    }
+    70% {
+        fill: #0ad2f5;
+        stroke: #715af5;
+    }
+    80% {
+        fill: #318dfd;
+        stroke: #8e5af5;
+        stroke-width: 3;
+    }
+    100% {
+        fill: #2d94ee;
+        stroke: #aa86f3;
+        stroke-dashoffset: -25%;
+        stroke-dasharray: 50% 0;
+        stroke-width: 0;
+    }
+}
+
+#weather-icon {
+    background-color: #4eb8ff;
+    margin-top: 25px; 
+}
+
+
+.weather-info {
+    display: none;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+label {
+    color: #2C3E50;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    width: 200px;
+    border: 1px solid #3498db;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
